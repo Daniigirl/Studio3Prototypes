@@ -5,33 +5,35 @@ using UnityEngine.UI;
 
 public class CountdownController : MonoBehaviour
 {
-    public int countdownTime;
+    public int countdownTime = 10;
     public Text countdownDisplay;
-    
+
 
     private void Start()
     {
-        StartCoroutine(CountdownToStart()); 
+        Time.timeScale = 0f;
+        StartCoroutine(CountdownToStart());
     }
 
 
     IEnumerator CountdownToStart()
     {
-      
+
         while (countdownTime > 0)
         {
             countdownDisplay.text = countdownTime.ToString();
 
-            yield return new WaitForSeconds(1f);
+            yield return new WaitForSecondsRealtime(1f);
 
             countdownTime--;
         }
 
         countdownDisplay.text = "GO!";
 
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSecondsRealtime(1f);
 
         countdownDisplay.gameObject.SetActive(false);
-
+        Time.timeScale = 1f;
     }
 }
+
