@@ -5,8 +5,20 @@ using UnityEngine.SceneManagement;
 
 public class SceneSwitch : MonoBehaviour
 {
-     void OnTriggerEnter(Collider other)
+    //public string LevelName;
+    public int LevelIndex;
+
+    // Start is called before the first frame update
+    void Start()
     {
-        SceneManager.LoadScene(2);
+
+    }
+
+    // Update is called once per frame
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "Player")
+            SceneManager.LoadScene(LevelIndex);
     }
 }
+

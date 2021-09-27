@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class TimerController : MonoBehaviour
 {
@@ -25,5 +26,16 @@ public class TimerController : MonoBehaviour
         {
             currentTime = 0;
         }
+
+        { 
+
+            if (currentTime <= 0)
+            {
+                SceneManager.LoadScene(3);
+            }
+
+        }
+
     }
+
 }

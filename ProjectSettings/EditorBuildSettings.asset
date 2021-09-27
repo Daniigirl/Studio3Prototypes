@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Prototype 1/Scenes/Success Title Card.unity
     guid: c020c259668fa744ba3dd546cd4aa5fe
+  - enabled: 1
+    path: Assets/Prototype 1/Scenes/Failure Title Card.unity
+    guid: a8349415ad1bca2419f5f48a59af3c88
   m_configObjects: {}
