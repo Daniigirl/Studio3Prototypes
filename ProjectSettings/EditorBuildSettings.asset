@@ -6,15 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Prototype 1/Scenes/10SecondRun Menu.unity
-    guid: f24a64ac8ce4ce542b28cce1260923b7
+    path: Assets/Prototype 2/Scenes/Mouse Click Menu.unity
+    guid: f750612364abb254eaee480b94545179
   - enabled: 1
-    path: Assets/Prototype 1/Scenes/Main Level.unity
-    guid: ea9c88feaafa59f4ea6fe967d75596b7
-  - enabled: 1
-    path: Assets/Prototype 1/Scenes/Success Title Card.unity
-    guid: c020c259668fa744ba3dd546cd4aa5fe
-  - enabled: 1
-    path: Assets/Prototype 1/Scenes/Failure Title Card.unity
-    guid: a8349415ad1bca2419f5f48a59af3c88
+    path: Assets/Prototype 2/Scenes/Farm Level.unity
+    guid: 535b954ce55c1dd4b9ae9e3b20a6f832
   m_configObjects: {}
