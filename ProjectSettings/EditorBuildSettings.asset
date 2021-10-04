@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Prototype 2/Scenes/Mouse Click Menu.unity
     guid: f750612364abb254eaee480b94545179
   - enabled: 1
+    path: Assets/Prototype 2/Scenes/Level Selection.unity
+    guid: 2b40bbbfb147ab24a99a9b5679b96f11
+  - enabled: 1
     path: Assets/Prototype 2/Scenes/Farm Level.unity
     guid: 535b954ce55c1dd4b9ae9e3b20a6f832
   - enabled: 1
