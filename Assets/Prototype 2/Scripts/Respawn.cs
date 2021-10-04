@@ -4,11 +4,23 @@ using UnityEngine;
 
 public class Respawn : MonoBehaviour
 {
-    [SerializeField] private Transform player;
-    [SerializeField] private Transform respawn_point;
+    private Vector3 respawn_point;
 
+    private void Start()
+    {
+        respawn_point = this.gameObject.transform.position;
+    }
     private void OnTriggerEnter(Collider other)
     {
-        player.transform.position = respawn_point.transform.position;
+        Debug.Log(other);
+        if (other.gameObject.tag == "Obstacle")
+        {
+            this.gameObject.transform.position = respawn_point;
+        }
     }
 }
+
+
+
+
+
