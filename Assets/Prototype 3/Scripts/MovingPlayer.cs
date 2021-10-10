@@ -15,11 +15,12 @@ public class MovingPlayer : MonoBehaviour
     [SerializeField] private float groundCheckDistance;
     [SerializeField] private LayerMask groundMask;
     [SerializeField] private float gravity;
+    public float Speed;
 
     [SerializeField] private float jumpHeight;
 
     private CharacterController controller;
-    private Animator anim;
+    private Animator anim; 
 
     private void Start()
     {
@@ -32,6 +33,7 @@ public class MovingPlayer : MonoBehaviour
         Move();
     }
 
+    
     private void Move()
     {
         isGrounded = Physics.CheckSphere(transform.position, groundCheckDistance, groundMask);
@@ -41,7 +43,11 @@ public class MovingPlayer : MonoBehaviour
             velocity.y = -2f;
         }
 
+        float moveX = Input.GetAxis("Horizontal");
         float moveZ = Input.GetAxis("Vertical");
+
+        moveDirection = new Vector3(moveX, 0, moveZ);
+        moveDirection = transform.TransformDirection(moveDirection);
 
         moveDirection = new Vector3(0, 0, moveZ);
         moveDirection = transform.TransformDirection(moveDirection);
@@ -96,6 +102,7 @@ public class MovingPlayer : MonoBehaviour
     private void Jump()
     {
         velocity.y = Mathf.Sqrt(jumpHeight * -2 * gravity);
+        
     }
 
 }
