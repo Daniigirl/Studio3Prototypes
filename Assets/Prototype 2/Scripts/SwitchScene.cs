@@ -7,7 +7,7 @@ public class SwitchScene : MonoBehaviour
 {
     public void OnClick()
     {
-        SceneManager.LoadScene("Instructions Menu");
+        SceneManager.LoadScene("Out of the Woods Menu");
     }
 }
 

@@ -9,18 +9,8 @@ public class SceneTrigger : MonoBehaviour
     {
         if (other.gameObject.tag =="Player")
         {
-            SceneManager.LoadScene("Farm Success");
+            SceneManager.LoadScene("Big Splash");
         }
     }
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 }

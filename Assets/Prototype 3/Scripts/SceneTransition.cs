@@ -16,7 +16,7 @@ public class SceneTransition : MonoBehaviour
     {
         yield return new WaitForSeconds(wait_time);
 
-        SceneManager.LoadScene("Beach and the Boat");
+        SceneManager.LoadScene("Cliff Level");
     }
 
 }
