@@ -4,5 +4,23 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Prototype 3/Scenes/Out of the Woods Menu.unity
+    guid: c9142237db052f044bf1750aad7b33ba
+  - enabled: 1
+    path: Assets/Prototype 3/Scenes/Backstory.unity
+    guid: 78e0617bee11a384e987a2850dc919e3
+  - enabled: 1
+    path: Assets/Prototype 3/Scenes/Cliff Level.unity
+    guid: 9bcf291a30b3620408b8918eb3a50f51
+  - enabled: 1
+    path: Assets/Prototype 3/Scenes/Dead Player.unity
+    guid: b37151b27a9def844806eb88272119c3
+  - enabled: 1
+    path: Assets/Prototype 3/Scenes/Big Splash.unity
+    guid: eb0496307c83ea54eb3e05ec8e7d19b9
+  - enabled: 1
+    path: Assets/Prototype 3/Scenes/Beach and the Boat.unity
+    guid: c13a2501d76cc09469e8823748c3b110
   m_configObjects: {}
