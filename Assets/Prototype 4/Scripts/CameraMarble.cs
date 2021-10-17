@@ -4,14 +4,29 @@ using UnityEngine;
 
 public class CameraMarble : MonoBehaviour
 {
-    public GameObject target;
-    public float xOffset, yOffset, zOffset;
-    
+    public GameObject player;
+    private Vector3 offset;
+
+    public bool RotateAroundPlayer = true;
+
+    public float RotationsSpeed = 100f;
+
+    void Start()
+    {
+        offset = transform.position - player.transform.position;
+    }
 
     // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
-        transform.position = target.transform.position + new Vector3(xOffset, yOffset, zOffset);
-        transform.LookAt(target.transform.position);
+        transform.position = player.transform.position + offset;
+
+        if (RotateAroundPlayer)
+        {
+            Quaternion camTurnAngle =
+                Quaternion.AngleAxis(Input.GetAxis("Mouse X") * RotationsSpeed, Vector3.up);
+
+            
+        }
     }
 }
