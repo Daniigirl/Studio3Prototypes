@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: fc948cef75e21f44eb483c85b8c32ce8
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Brainstorm
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: d70fa7f9b8c187c4b988022253fc1560, type: 3}
+  - {fileID: 12800000, guid: 97c4ac2f9b2828b45ac8e4e240836e35, type: 3}
+  - {fileID: 12800000, guid: 60fc197f234897b40b720c551295a5ac, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
