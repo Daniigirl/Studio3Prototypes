@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 67780507}
   - component: {fileID: 67780506}
   - component: {fileID: 67780505}
+  - component: {fileID: 67780508}
   m_Layer: 5
   m_Name: Instructions Button
   m_TagString: Untagged
@@ -204,7 +205,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 67780506}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 67780508}
+        m_TargetAssemblyTypeName: ButtonSceneSwitcher, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &67780506
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -247,6 +260,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 67780503}
   m_CullTransparentMesh: 1
+--- !u!114 &67780508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 67780503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16028aa9263e9064c85af75c6fc113a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myScene: Instructions
 --- !u!1 &116516903
 GameObject:
   m_ObjectHideFlags: 0
@@ -281,8 +307,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -470.945, y: -0.00033569}
-  m_SizeDelta: {x: 978.108, y: 785.81}
+  m_AnchoredPosition: {x: -470.945, y: -3.167}
+  m_SizeDelta: {x: 978.108, y: 956.789}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &116516905
 MonoBehaviour:
@@ -689,8 +715,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 489.05, y: -0.0026571}
-  m_SizeDelta: {x: 941.89, y: 785.81}
+  m_AnchoredPosition: {x: 489.05, y: -3.169}
+  m_SizeDelta: {x: 941.89, y: 956.789}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1076125864
 MonoBehaviour:
@@ -756,7 +782,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: ff30f06d72f772546819c12aeaa84662, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.4
+  m_Volume: 0.6
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1025,6 +1051,7 @@ GameObject:
   - component: {fileID: 1836609365}
   - component: {fileID: 1836609364}
   - component: {fileID: 1836609363}
+  - component: {fileID: 1836609366}
   m_Layer: 5
   m_Name: Play Button
   m_TagString: Untagged
@@ -1094,7 +1121,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1836609364}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1836609366}
+        m_TargetAssemblyTypeName: ButtonSceneSwitcher, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1836609364
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1137,3 +1176,16 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1836609361}
   m_CullTransparentMesh: 1
+--- !u!114 &1836609366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1836609361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16028aa9263e9064c85af75c6fc113a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myScene: Level Selection Screen

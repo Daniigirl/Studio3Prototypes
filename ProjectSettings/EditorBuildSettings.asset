@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Prototype 5/Scenes/8-Bit Idol.unity
+    guid: 6e581a96452ae0a409ff2be50059a329
+  - enabled: 1
+    path: Assets/Prototype 5/Scenes/Level Selection Screen.unity
+    guid: 716689dd892e0b84c902568d8c39f331
+  - enabled: 1
+    path: Assets/Prototype 5/Scenes/Instructions.unity
+    guid: 7885225dbe3119c4abbf8968aaeb6eb0
+  - enabled: 1
+    path: Assets/Prototype 5/Scenes/Idol Level.unity
+    guid: 7e600f6fee028a246a10a2e49ab7389e
   m_configObjects: {}
