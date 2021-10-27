@@ -48,3 +48,6 @@ TagManager:
   - name: Arrows
     uniqueID: 4230738799
     locked: 0
+  - name: Effects
+    uniqueID: 1552892195
+    locked: 0
