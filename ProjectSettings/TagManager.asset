@@ -45,9 +45,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background Image
+    uniqueID: 3972889417
+    locked: 0
+  - name: Counter
+    uniqueID: 3717814225
+    locked: 0
   - name: Arrows
     uniqueID: 4230738799
     locked: 0
   - name: Effects
     uniqueID: 1552892195
+    locked: 0
+  - name: Ingredients
+    uniqueID: 3083246475
     locked: 0
