@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Gameplay : MonoBehaviour
 {
-    public static string cuttingboardS1, cuttingboardS2, cuttingboardS3;
+    public static string cuttingboardS1="empty", cuttingboardS2="empty", cuttingboardS3="empty";
     
     // Start is called before the first frame update
     void Start()
