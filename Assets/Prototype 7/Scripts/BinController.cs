@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class BinController : MonoBehaviour
 {
-    public Transform coneObj, BubblegumObj, BoysenberryObj, PeachObj, ChocolateObj, MintObj, VanillaObj;
     public Transform SpawnPosition;
+    public Transform coneObj, BubblegumObj, BoysenberryObj, PeachObj, ChocolateObj, MintObj, VanillaObj;
+    
     // Start is called before the first frame update
     void Start()
     {
