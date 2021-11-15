@@ -5,7 +5,8 @@ using UnityEngine;
 public class Gameplay : MonoBehaviour
 {
     public static string cuttingboardS1="empty", cuttingboardS2="empty", cuttingboardS3="empty";
-    
+
+    public static int selectedSlot = 0;
     // Start is called before the first frame update
     void Start()
     {

@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class MoveOrder : MonoBehaviour
 {
+    public int occupiedSlot = 0;
+
+    public string mouseControlled = "n";
     // Start is called before the first frame update
     void Start()
     {
@@ -13,8 +16,17 @@ public class MoveOrder : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector2 mousePosition = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
-        Vector2 objPosition = Camera.main.ScreenToWorldPoint(mousePosition);
-        transform.position = objPosition;
+        if (mouseControlled == "y")
+        {
+            Vector2 mousePosition = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
+            Vector2 objPosition = Camera.main.ScreenToWorldPoint(mousePosition);
+            transform.position = objPosition;
+        }
+    }
+    
+
+    void OnMouseDown()
+    {
+        mouseControlled = "y";
     }
 }
