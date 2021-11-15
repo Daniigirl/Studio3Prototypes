@@ -189,16 +189,136 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &69387054 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8125659646763492735, guid: 4a895229e8852f1439aefe929bad6abc, type: 3}
+  m_PrefabInstance: {fileID: 8125659646480279356}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &69387057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 69387054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 741876729bb3aca4ab485ca26435f906, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpawnPosition: {fileID: 281986511}
+  startingPosition: {x: 0, y: 0, z: 0}
+  order: {fileID: 69387054}
+--- !u!1 &128184142
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 128184144}
+  m_Layer: 0
+  m_Name: Ice cream Spawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &128184144
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128184142}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.43, y: -1.45, z: -3.964848}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &158108706 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5974096763904505018, guid: a4bd5c2e26c064f46a6e9ecbb4320183, type: 3}
   m_PrefabInstance: {fileID: 5974096763785197720}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &281986510
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 281986511}
+  m_Layer: 0
+  m_Name: Ice cream Spawn 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &281986511
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 281986510}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.43, y: -0.45, z: -3.964848}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &432377909 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7214519890903653828, guid: c9294efe0bad7334a8b16e52b5e4ee14, type: 3}
   m_PrefabInstance: {fileID: 7214519890521673201}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &485098107 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7163480747370688802, guid: dd3cfab0992dc8e46986ccc8a6023a9f, type: 3}
+  m_PrefabInstance: {fileID: 7163480748556389207}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &485098110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 485098107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 741876729bb3aca4ab485ca26435f906, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpawnPosition: {fileID: 128184144}
+  startingPosition: {x: 0, y: 0, z: 0}
+  order: {fileID: 485098107}
+--- !u!1 &553786537 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8681342637323016518, guid: 05f5181ca43c8b04c91e77dcb0e12285, type: 3}
+  m_PrefabInstance: {fileID: 8681342638186064491}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &553786540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 553786537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 741876729bb3aca4ab485ca26435f906, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpawnPosition: {fileID: 281986511}
+  startingPosition: {x: 0, y: 0, z: 0}
+  order: {fileID: 553786537}
 --- !u!4 &624299287 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4539886738103634879, guid: 237356d0d0ebac141a87ca771258fcbe, type: 3}
@@ -214,6 +334,26 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2345561620448161797, guid: 63fad023045cea34582ef21aa79c3d3a, type: 3}
   m_PrefabInstance: {fileID: 2345561620884716205}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &998021131 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4539886738103634876, guid: 237356d0d0ebac141a87ca771258fcbe, type: 3}
+  m_PrefabInstance: {fileID: 4539886738689656488}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &998021134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 998021131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 741876729bb3aca4ab485ca26435f906, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpawnPosition: {fileID: 128184144}
+  startingPosition: {x: 0, y: 0, z: 0}
+  order: {fileID: 998021131}
 --- !u!4 &1033843503 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8681342637323016516, guid: 05f5181ca43c8b04c91e77dcb0e12285, type: 3}
@@ -238,6 +378,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SpawnPosition: {fileID: 1413361897}
   startingPosition: {x: 0, y: 0, z: 0}
+  order: {fileID: 1040710271}
 --- !u!1 &1061366021
 GameObject:
   m_ObjectHideFlags: 0
@@ -360,11 +501,11 @@ Transform:
   - {fileID: 1983667139}
   - {fileID: 1061366023}
   - {fileID: 432377909}
-  - {fileID: 158108706}
-  - {fileID: 1033843503}
   - {fileID: 1094237630}
   - {fileID: 1265416824}
   - {fileID: 624299287}
+  - {fileID: 158108706}
+  - {fileID: 1033843503}
   - {fileID: 826180166}
   - {fileID: 1199710704}
   - {fileID: 973425320}
@@ -569,6 +710,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1709431094 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5974096763904505016, guid: a4bd5c2e26c064f46a6e9ecbb4320183, type: 3}
+  m_PrefabInstance: {fileID: 5974096763785197720}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1709431097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709431094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 741876729bb3aca4ab485ca26435f906, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpawnPosition: {fileID: 281986511}
+  startingPosition: {x: 0, y: 0, z: 0}
+  order: {fileID: 1709431094}
 --- !u!1 &1790830881
 GameObject:
   m_ObjectHideFlags: 0
@@ -734,6 +895,26 @@ Transform:
   m_Father: {fileID: 1233157983}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2143247500 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8985440828089014484, guid: d30b8297a34193748bfac6e7290f86d7, type: 3}
+  m_PrefabInstance: {fileID: 8985440829182125416}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2143247503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2143247500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 741876729bb3aca4ab485ca26435f906, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpawnPosition: {fileID: 128184144}
+  startingPosition: {x: 0, y: 0, z: 0}
+  order: {fileID: 2143247500}
 --- !u!1001 &1050798788309053729
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -889,7 +1070,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4539886738103634879, guid: 237356d0d0ebac141a87ca771258fcbe, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4539886738103634879, guid: 237356d0d0ebac141a87ca771258fcbe, type: 3}
       propertyPath: m_LocalPosition.x
@@ -947,7 +1128,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5974096763904505018, guid: a4bd5c2e26c064f46a6e9ecbb4320183, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5974096763904505018, guid: a4bd5c2e26c064f46a6e9ecbb4320183, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1061,7 +1242,7 @@ PrefabInstance:
       objectReference: {fileID: 1033843503}
     - target: {fileID: 7163480747370688815, guid: dd3cfab0992dc8e46986ccc8a6023a9f, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7163480747370688815, guid: dd3cfab0992dc8e46986ccc8a6023a9f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1287,7 +1468,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8681342637323016516, guid: 05f5181ca43c8b04c91e77dcb0e12285, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8681342637323016516, guid: 05f5181ca43c8b04c91e77dcb0e12285, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1401,7 +1582,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8985440828089014486, guid: d30b8297a34193748bfac6e7290f86d7, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8985440828089014486, guid: d30b8297a34193748bfac6e7290f86d7, type: 3}
       propertyPath: m_LocalPosition.x
