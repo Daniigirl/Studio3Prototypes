@@ -48,6 +48,9 @@ TagManager:
   - name: Background Image
     uniqueID: 3972889417
     locked: 0
+  - name: Slots
+    uniqueID: 4107953133
+    locked: 0
   - name: Counter
     uniqueID: 3717814225
     locked: 0
