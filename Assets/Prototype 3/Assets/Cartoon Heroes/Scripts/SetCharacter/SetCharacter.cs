@@ -45,7 +45,7 @@ namespace CartoonHeroes
         public GameObject AddItem(ItemGroup itemGroup, int itemSlot)
         {
             Item item = itemGroup.items[itemSlot];
-            GameObject itemInstance = GameObject.Instantiate(item.prefab);
+            GameObject itemInstance = Instantiate(item.prefab);
             itemInstance.name = itemInstance.name.Substring(0, itemInstance.name.Length - "(Clone)".Length);
             RemoveAnimator(itemInstance);
             ParentObjectAndBones(itemInstance);

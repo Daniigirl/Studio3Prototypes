@@ -6,6 +6,7 @@ public class SpawnObject : MonoBehaviour
 {
     public Transform SpawnPosition;
     public Vector3 startingPosition;
+    public GameObject order;
 
     private void Start()
     {
@@ -14,10 +15,7 @@ public class SpawnObject : MonoBehaviour
 
     private void OnMouseDown()
     {
-        transform.position = SpawnPosition.position;
-    }
-    public void OnNextCustomerOrderButtonClicked()
-    {
-       
+        Instantiate(order, SpawnPosition.position, SpawnPosition.rotation);
+        
     }
 }
