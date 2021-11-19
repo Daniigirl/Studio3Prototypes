@@ -8,6 +8,7 @@ TagManager:
   - Game Music
   - SpeedBoost
   - Activator
+  - Sphere
   layers:
   - Default
   - TransparentFX
