@@ -9,6 +9,7 @@ TagManager:
   - SpeedBoost
   - Activator
   - Sphere
+  - Wall
   layers:
   - Default
   - TransparentFX
