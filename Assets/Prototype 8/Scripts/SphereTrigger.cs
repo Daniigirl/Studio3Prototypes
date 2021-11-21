@@ -6,10 +6,11 @@ using UnityEngine.SceneManagement;
 public class SphereTrigger : MonoBehaviour
 {
     public string myScene;
-
+    
     
     private void OnTriggerEnter(Collider other)
     {
+        Debug.Log("Entered Trigger");
         if (other.gameObject.tag == "Sphere")
         {
             SceneManager.LoadScene(myScene);
