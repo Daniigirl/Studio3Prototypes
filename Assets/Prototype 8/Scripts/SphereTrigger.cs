@@ -8,10 +8,9 @@ public class SphereTrigger : MonoBehaviour
     public string myScene;
     
     
-    private void OnTriggerEnter(Collider other)
+    void OnTriggerEnter(Collider col)
     {
-        Debug.Log("Entered Trigger");
-        if (other.gameObject.tag == "Sphere")
+        if (col.gameObject.name == "Sphere")
         {
             SceneManager.LoadScene(myScene);
         }
