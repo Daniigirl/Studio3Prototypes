@@ -9,12 +9,15 @@ EditorBuildSettings:
     path: Assets/Prototype 7/Scenes/TinySprout Studios Logo.unity
     guid: 2323ed8a64231f544974970882500ef9
   - enabled: 1
-    path: Assets/Prototype 7/Scenes/Sweet Shoppe Menu.unity
-    guid: 5f1f6d2661f0add4497e69a5b546e989
+    path: Assets/Prototype 8/Scenes/After It Menu.unity
+    guid: d8a1f6fdde1e82d45bc2d85f326a96d9
   - enabled: 1
-    path: Assets/Prototype 7/Scenes/Sweet Shoppe Instructions.unity
-    guid: 68ebb9cd4b868a544a1acc3148576876
+    path: Assets/Prototype 8/Scenes/Instructions.unity
+    guid: cd14b8de1ab0f7442bd1adf8a3b9f9d3
   - enabled: 1
-    path: Assets/Prototype 7/Scenes/Sweet Shoppe Level.unity
-    guid: ed4fe8c5f2b0e4a41aee088a5a87863a
+    path: Assets/Prototype 8/Scenes/Level.unity
+    guid: 4ccb4520b97103749b6ca359f8252bd4
+  - enabled: 1
+    path: Assets/Prototype 8/Scenes/Level 1 Success.unity
+    guid: 252179c2a18f7534a80c2f477cdcec50
   m_configObjects: {}
