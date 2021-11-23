@@ -313,7 +313,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34d7177fbca2e7c43ab2af5d73b391f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myScene: Sweet Shoppe Menu
+  myScene: After It Menu
   wait_time: 7
 --- !u!328 &1602950501
 VideoPlayer:
