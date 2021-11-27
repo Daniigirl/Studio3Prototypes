@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Dialogue : MonoBehaviour
 {
@@ -34,7 +36,6 @@ public class Dialogue : MonoBehaviour
         }
     }
     
-
    public void NextSentence()
     {
         continueButton.SetActive(false);

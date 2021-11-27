@@ -12,6 +12,6 @@ EditorBuildSettings:
     path: Assets/Prototype 9/Scenes/Escape From Reality Menu.unity
     guid: 35c5768524c74b54897154853ca23d84
   - enabled: 1
-    path: Assets/Prototype 9/Scenes/School Classroom.unity
-    guid: d7fb1fb752776534bb473b3874fea86a
+    path: Assets/Prototype 9/Scenes/School Classroom Scene.unity
+    guid: 90caa2fd07db2cd42bc182d7e8ff9262
   m_configObjects: {}
