@@ -473,7 +473,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16028aa9263e9064c85af75c6fc113a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myScene: 
+  myScene: Leave For Home
 --- !u!114 &637265724
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -854,9 +854,10 @@ MonoBehaviour:
   - No? Then no. You can't be friends with us.
   - You know the rules. If you don't have a boyfriend then you're not welcome in
     our group.
-  - All of us do. We just don't want to make it weird for you, that's all.
+  - All of us have boyfriends. We just don't want to make it weird for you, that's
+    all.
   - Soo..... like, leave already!
-  typingSpeed: 0.03
+  typingSpeed: 0.02
   continueButton: {fileID: 87299662}
 --- !u!4 &1355053958
 Transform:
@@ -1192,7 +1193,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9aea238f132c8714e8674625320faaf3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 73a2c18be0d317742958daab2b1090b8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
