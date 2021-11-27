@@ -9,6 +9,7 @@ public class Dialogue : MonoBehaviour
     public string[] sentences;
     private int index;
     public float typingSpeed;
+    public GameObject continueButton;
 
 // Start is called before the first frame update
     void Start()
@@ -16,6 +17,13 @@ public class Dialogue : MonoBehaviour
         StartCoroutine(Type());
     }
 
+    void Update()
+    {
+        if(textDisplay.text == sentences[index])
+        {
+            continueButton.SetActive(true);
+        }
+    }
 
     IEnumerator Type()
     {
@@ -27,9 +35,20 @@ public class Dialogue : MonoBehaviour
     }
     
 
-    // Update is called once per frame
-    void Update()
+   public void NextSentence()
     {
-        
+        continueButton.SetActive(false);
+
+        if(index < sentences.Length - 1)
+        {
+            index++;
+            textDisplay.text = "";
+            StartCoroutine(Type());
+        }
+        else
+        {
+            textDisplay.text = "";
+            continueButton.SetActive(false);
+        }
     }
 }
