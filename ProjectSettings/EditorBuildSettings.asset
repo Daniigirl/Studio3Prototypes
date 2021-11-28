@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Prototype 9/Scenes/Leave For Home.unity
     guid: 9f75012f781f45d4b90232083175871f
+  - enabled: 1
+    path: Assets/Prototype 9/Scenes/Walking Home Scene.unity
+    guid: 05b92637e36b18d47ae1174b42d1d45b
+  - enabled: 1
+    path: Assets/Prototype 9/Scenes/Journal Entry Scene.unity
+    guid: 8d20f11d6bdd68b4db46dae33a74ccc8
   m_configObjects: {}
