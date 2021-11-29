@@ -12,6 +12,12 @@ EditorBuildSettings:
     path: Assets/Prototype 9/Scenes/Escape From Reality Menu.unity
     guid: 35c5768524c74b54897154853ca23d84
   - enabled: 1
+    path: Assets/Prototype 9/Scenes/Instructions - EFR.unity
+    guid: 94c6dbd3a9623f8439d0a7475c8dc1d9
+  - enabled: 1
+    path: Assets/Prototype 9/Scenes/Settings - EFR.unity
+    guid: 249772a61cafe7c4a8513312a52456c1
+  - enabled: 1
     path: Assets/Prototype 9/Scenes/Classroom.unity
     guid: a47c2809f87edc64487c3d721bfddf11
   - enabled: 1
