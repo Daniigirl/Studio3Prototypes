@@ -7,6 +7,7 @@ public class RigidbodyMovement : MonoBehaviour
     private Vector3 PlayerMovementInput;
     private Vector2 PlayerMouseInput;
     private float xRot;
+    
 
     [SerializeField] private LayerMask Ground;
     [SerializeField] private Transform FeetTransform; 
@@ -17,6 +18,10 @@ public class RigidbodyMovement : MonoBehaviour
     [SerializeField] private float Sensitivity;
     [SerializeField] private float Jumpforce;
 
+    private void Start()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+    }
     // Update is called once per frame
     void Update()
     {
@@ -25,6 +30,8 @@ public class RigidbodyMovement : MonoBehaviour
 
         MovePlayer();
         MovePlayerCamera();
+
+        xRot = Mathf.Clamp(xRot, -70f, 70f);
     }
 
     private void MovePlayer()
