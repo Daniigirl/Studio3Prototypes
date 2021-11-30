@@ -38,4 +38,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Prototype 9/Scenes/Fantasy World.unity
     guid: 4feb8f2bfdbf23c4e913906ca6747ea3
+  - enabled: 1
+    path: Assets/Prototype 9/Scenes/Final Quote Scene.unity
+    guid: f673c39c61525e84ebfe1f6694f59fbd
   m_configObjects: {}
