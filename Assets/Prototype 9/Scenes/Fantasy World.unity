@@ -5096,7 +5096,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: When I grow up, I'll be a strong fighter too!
+  m_Text: When I grow up, I'll be a strong fighter just like you!
 --- !u!222 &784165704
 CanvasRenderer:
   m_ObjectHideFlags: 0
