@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class TimerController : MonoBehaviour
 {
+    public string failureScene;
     float currentTime = 0f;
     float startingTime = 10f;
 
@@ -31,7 +32,7 @@ public class TimerController : MonoBehaviour
 
             if (currentTime <= 0)
             {
-                SceneManager.LoadScene(3);
+                SceneManager.LoadScene(failureScene);
             }
 
         }

@@ -17,4 +17,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Prototype 11/Scenes/10 Second Run 2 Settings.unity
     guid: acf2f933412eb274e9fa3115caadccc1
+  - enabled: 1
+    path: Assets/Prototype 11/Scenes/Level 1.unity
+    guid: 17383e4d421a4674b98838bcd1169623
+  - enabled: 1
+    path: Assets/Prototype 11/Scenes/Level 1 Failed.unity
+    guid: 3ffc6f19f4ac1f64ab8b588398776fab
+  - enabled: 1
+    path: Assets/Prototype 11/Scenes/Level 1 Success.unity
+    guid: c23b53c900ce21e49a03ce197a9933ae
+  - enabled: 1
+    path: Assets/Prototype 11/Scenes/Level 2.unity
+    guid: 758d6dfe48a7efb408b057962f725f01
   m_configObjects: {}
