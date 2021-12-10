@@ -404,6 +404,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6648145fdf8b86149804506b93451a04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failureScene: Level 1 Failed
   countdownText: {fileID: 133686285}
 --- !u!114 &133686284
 MonoBehaviour:
@@ -1417,7 +1418,7 @@ GameObject:
   - component: {fileID: 975651779}
   - component: {fileID: 975651778}
   m_Layer: 0
-  m_Name: Capsule
+  m_Name: Level Success Trigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1435,7 +1436,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a454bf0b10d817b46bcb6afdf7c22999, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myScene: 
+  myScene: Level 1 Success
 --- !u!136 &975651779
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2610,7 +2611,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 7ed1cb5422b5dc045a76da1631e05f1d, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.4
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 1
   Mute: 0
