@@ -29,4 +29,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Prototype 11/Scenes/Level 2.unity
     guid: 758d6dfe48a7efb408b057962f725f01
+  - enabled: 1
+    path: Assets/Prototype 11/Scenes/Level 2 Failed.unity
+    guid: 5c66027eeefbfe340b76c0e27a69df94
+  - enabled: 1
+    path: Assets/Prototype 11/Scenes/Level 2 Success.unity
+    guid: c0d44222b0e06464b90860539be0f795
   m_configObjects: {}
