@@ -848,8 +848,6 @@ GameObject:
   - component: {fileID: 1576112692}
   - component: {fileID: 1576112696}
   - component: {fileID: 1576112695}
-  - component: {fileID: 1576112694}
-  - component: {fileID: 1576112693}
   m_Layer: 5
   m_Name: Timer
   m_TagString: Untagged
@@ -876,34 +874,6 @@ RectTransform:
   m_AnchoredPosition: {x: -105.73, y: -102.14}
   m_SizeDelta: {x: 211.45337, y: 204.27002}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1576112693
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1576112691}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6648145fdf8b86149804506b93451a04, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  failureScene: Level 2 Failed
-  countdownText: {fileID: 1576112695}
---- !u!114 &1576112694
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1576112691}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf8580ec97be1e741ba9388c881e4118, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  countdownTime: 16
-  countdownDisplay: {fileID: 1576112695}
 --- !u!114 &1576112695
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1387,3 +1357,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 375a42e14c1bf6f4c8164d30350d350a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1956811546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1956811542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6648145fdf8b86149804506b93451a04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  failureScene: Level 2 Failed
+  countdownText: {fileID: 1576112695}

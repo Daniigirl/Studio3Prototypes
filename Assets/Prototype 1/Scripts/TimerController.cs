@@ -39,4 +39,13 @@ public class TimerController : MonoBehaviour
 
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject.name == "sand_clock")
+        {
+            currentTime += 5;
+            Destroy(other.gameObject);
+        }
+    }
+
 }
