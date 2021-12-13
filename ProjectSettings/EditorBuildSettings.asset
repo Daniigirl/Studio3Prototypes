@@ -15,9 +15,6 @@ EditorBuildSettings:
     path: Assets/Prototype 11/Scenes/10 Second Run 2 Rules.unity
     guid: f3e5fd2565bb88045b64868e9b4f3f56
   - enabled: 1
-    path: Assets/Prototype 11/Scenes/10 Second Run 2 Settings.unity
-    guid: acf2f933412eb274e9fa3115caadccc1
-  - enabled: 1
     path: Assets/Prototype 11/Scenes/Level 1.unity
     guid: 17383e4d421a4674b98838bcd1169623
   - enabled: 1
